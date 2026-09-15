@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(hello_modern src/modern_hello_world.cpp)
 add_executable(hello src/hello_world.cpp)
+add_executable(variables_sizes src/variables_sizes.cpp)
 add_executable(variables src/variables.cpp)
+add_executable(pointers src/pointers.cpp)
+add_executable(logic src/logic.cpp)
+add_executable(loops src/loops.cpp)
