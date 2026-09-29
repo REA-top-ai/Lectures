@@ -14,4 +14,10 @@ add_executable(c_outs src/c_outs.cpp)
 add_executable(operations src/operations.cpp)
 add_executable(bits src/bits_operations.cpp)
 add_executable(macros src/macros.cpp)
-
+add_executable(memory src/memory_alignment.cpp)
+add_executable(constants src/constants.cpp)
+add_executable(arrays src/arrays.cpp
+        src/unions.cpp)
+add_executable(structs src/structs.cpp)
+add_executable(classes src/classes.cpp)
+add_executable(unions src/unions.cpp)
